@@ -25,7 +25,6 @@
     "html-webpack-plugin": "^2.22.0",
     "json-loader": "^0.5.4",
     "koa": "^1.2.2",
-    "koa-body": "^1.6.0",
     "koa-router": "^5.4.0",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
@@ -38,15 +37,18 @@
     "webpack-dev-server": "^1.15.0"
   },
   "dependencies": {
+    "antd": "^2.11.0",
     "es6-promise": "^3.2.1",
     "immutable": "^3.8.1",
-    "react": "^15.3.1",
+    "react": "^15.3.2",
     "react-addons-css-transition-group": "^15.3.1",
     "react-addons-pure-render-mixin": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-redux": "^4.4.5",
     "react-router": "^2.7.0",
+    "react-swipe": "^5.0.5",
     "redux": "^3.5.2",
+    "swipe-js-iso": "^2.0.3",
     "whatwg-fetch": "^1.0.0"
   }
 }

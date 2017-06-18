@@ -1,23 +1,39 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import './style.less'
-import { Button , Icon , Input} from 'antd';
+import { Icon , Input} from 'antd';
+import {Link} from 'react-router'
+import { hashHistory } from 'react-router'
+import SearchInput from '../SearchInput'
+
 
 class HomeHeader extends React.Component {
     constructor(props, context) {
         super(props, context);
         this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
+        this.state = {
+          searchValue:''
+        };
+    }
+
+    enterHandle(value){
+        hashHistory.push('/search/all/' + encodeURIComponent(value));
     }
     render() {
         return (
             <div id="home-header" className="clear-fix">
-               <div className="float-left header-left">
-                   {this.props.cityName}
-                   <Icon type="down" />
-               </div>
+               <Link to='/city' style={{color:"#fff"}}>
+                    <div className="float-left header-left">
+                        {this.props.cityName}
+                        <Icon type="down" />
+                    </div>
+               </Link>
                <div className="float-left header-middle">
                     <Icon type="search" className="input-icon"/>
-                    <Input placeholder="请输入搜索内容" className="search-input"/>
+                    <SearchInput
+                        value={this.state.searchValue}
+                        enterHandle={this.enterHandle.bind(this)}
+                    />
                </div>
                <div className="header-right float-right">
                     <Icon type="user" />

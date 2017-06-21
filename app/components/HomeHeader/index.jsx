@@ -35,9 +35,11 @@ class HomeHeader extends React.Component {
                         enterHandle={this.enterHandle.bind(this)}
                     />
                </div>
-               <div className="header-right float-right">
-                    <Icon type="user" />
-               </div>
+                <Link to="/login" style={{color:"#fff"}}>
+                    <div className="header-right float-right">
+                        <Icon type="user" />
+                    </div>
+                </Link>
             </div>
         )
     }

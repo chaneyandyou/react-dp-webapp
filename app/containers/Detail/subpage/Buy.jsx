@@ -14,7 +14,6 @@ class Buy extends React.Component {
             isStore:false
         }
     }
-
     componentDidMount() {
         this.checkCollect();
 
@@ -35,7 +34,6 @@ class Buy extends React.Component {
             }
         })
     }
-
     //购买
     buyHandle(){
         console.log("buyHandle");
@@ -53,7 +51,6 @@ class Buy extends React.Component {
         if(!loginCheck){
             return
         }
-
         const id = this.props.id;
         const collectActions = this.props.collectActions;
         if(this.state.isStore){
@@ -61,7 +58,6 @@ class Buy extends React.Component {
         }else{
             collectActions.add({id:id});
         }
-
         this.setState({
             isStore:!this.state.isStore
         });

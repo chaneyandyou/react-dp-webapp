@@ -1,6 +1,7 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import {Icon} from 'antd'
+import {hashHistory} from 'react-router'
 import './style.less'
 class Header extends React.Component {
     constructor(props, context) {
@@ -9,7 +10,13 @@ class Header extends React.Component {
     }
 
     clickHandle() {
-        window.history.back();
+        const backRouter = this.props.backRouter;
+        if(backRouter){
+            hashHistory.push(backRouter);
+        }else{
+            window.history.back();
+        }
+
     }
 
     render() {
@@ -31,6 +38,4 @@ class Header extends React.Component {
     }
 }
 
-// 使用 require.ensure 异步加载，还不支持 ES6 的 export 
-// export default NotFound
 module.exports = Header;

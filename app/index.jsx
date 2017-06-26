@@ -8,7 +8,7 @@ import './static/css/common.less'
 // import './static/css/font.css'
 
 // 创建 Redux 的 store 对象
-const store = configureStore()
+const store = configureStore();
 
 import RouteMap from './router/routeMap'
 
@@ -17,4 +17,4 @@ render(
         <RouteMap history={hashHistory}/>
     </Provider>,
     document.getElementById('root')
-)
+);

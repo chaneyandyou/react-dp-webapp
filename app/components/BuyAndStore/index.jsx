@@ -34,8 +34,8 @@ class BuyAndStore extends React.Component {
         buyHandle()
     }
     storeClickHandle() {
-        const storeHandle = this.props.storeHandle;
-        storeHandle();
+        const storeHandle = this.props.storeHandle();
+        // storeHandle();
     }
 }
 

@@ -21,7 +21,7 @@ module.exports = [
     },
     {
         title: '电影',
-        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191706733-367929553.png',
+        img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191648124-298129318.png',
         link: 'http://www.imooc.com/wap/index'
     },
     {
@@ -29,4 +29,4 @@ module.exports = [
         img: 'http://images2015.cnblogs.com/blog/138012/201610/138012-20161016191713186-495002222.png',
         link: 'http://www.imooc.com/wap/index'
     }
-]
+];

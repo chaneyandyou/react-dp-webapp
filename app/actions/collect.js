@@ -14,7 +14,7 @@ export function add(item) {
     }
 }
 
-export function remove(item) {
+export function rm(item) {
     return {
         type: actionsTypes.COLLECT_RM,
         item

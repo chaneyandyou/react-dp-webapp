@@ -24,11 +24,21 @@ npm run mock	//使用了koa模拟后台接口
 <strong>木偶组件</strong> 这里“木偶”一词用的特别形象，它总是被人拿线牵着。它从智能组件（或页面）那里接受到数据、函数，然后就开始做一些展示工作，它的工作就是把拿到的数据展示给用户，函数操作开放给用户。至于数据内容是什么，函数操作是什么，它不关心。
 
 # 项目截图
-<img src="https://github.com/duxianwei520/react/blob/master/screenshots/login.png" width="704" height="561"/> 
+<img src="https://github.com/chaneyandyou/react-dp-webapp/blob/master/screenshot/home.png" width="704" height="561"/> 
+
+<img src="https://github.com/chaneyandyou/react-dp-webapp/blob/master/screenshot/city.png" width="704" height="561"/> 
+
+<img src="https://github.com/chaneyandyou/react-dp-webapp/blob/master/screenshot/redux.png" width="704" height="561"/> 
+
+<img src="https://github.com/chaneyandyou/react-dp-webapp/blob/master/screenshot/search.png" width="704" height="561"/> 
+
+<img src="https://github.com/chaneyandyou/react-dp-webapp/blob/master/screenshot/user.png" width="704" height="561"/> 
 
 # 图片403报错说明
 应该是cnblog 进行了防盗链，实际项目中，换成自己的图片即可。
 
-
+# 项目期望
+1.后期希望能够升级react-router为4.0+，还有webpack2.0+
+2.redux方面希望能够用上中间件，使用上异步
 
 

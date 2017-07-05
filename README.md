@@ -1,6 +1,6 @@
 # react-dp-webapp
 
-这个一个react+react-router+redux+webpack的webapp实战项目，最主要是熟悉了解react+redux的开发模式。
+这是一个react+react-router+redux+webpack的webapp实战项目，最主要是熟悉了解react+redux的开发模式。
 
 # 安装启动
 ```

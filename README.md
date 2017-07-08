@@ -42,4 +42,5 @@ npm run mock	//使用了koa模拟后台接口
 
 2.redux方面希望能够用上中间件，使用上异步
 
-
+# 联系我
+chaneychan@outlook.com

@@ -40,7 +40,7 @@ npm run mock	//使用了koa模拟后台接口
 # 项目期望
 1.后期希望能够升级react-router为4.0+，还有webpack2.0+
 
-2.redux方面希望能够用上中间件，使用上异步
+2.react服务器端渲染，这个挺有必要的
 
 # 联系我
 chaneychan@outlook.com

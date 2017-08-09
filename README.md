@@ -8,7 +8,7 @@ git clone https://github.com/chaneyandyou/react-dp-webapp.git
 
 cd react-dp-webapp
 
-npm install 
+npm install   //可用国内的淘宝镜像源cnpm
 
 npm start
 

@@ -16,6 +16,27 @@ npm run mock	//使用了koa模拟后台接口
 
 ```
 
+> 说明
+package.json文件分为mac环境和windows环境
+
+* mac环境的配置如下
+
+```
+  "scripts": {
+    "start": "NODE_ENV=dev && webpack-dev-server --progress --colors",
+    "build": "rm rf ./build && NODE_ENV=production && webpack --config ./webpack.production.config.js --progress --colors"
+  },
+```
+
+* windows
+
+```
+  "scripts": {
+    "start": "set NODE_ENV=dev && webpack-dev-server --progress --colors",
+    "build": "rd/s/q build && set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress --colors"
+  },
+```
+
 # 关于容器组件(智能组件)和展示组件(木偶组件)
 这是用 React 做系统设计时的两个非常重要的概念。虽然在 React 中，所有的单位都叫做“组件”，但是通过以上例子，我们还是将它们分别放在了``./app/containers``和``./app/components``两个文件夹中。为何要分开呢？
 

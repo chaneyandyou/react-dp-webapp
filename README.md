@@ -17,7 +17,7 @@ npm run mock	//使用了koa模拟后台接口
 ```
 
 > 说明
-package.json文件分为mac环境和windows环境
+package.json文件分为mac环境和windows环境（详细原因请查阅相关命令行）
 
 * mac环境的配置如下
 

@@ -63,5 +63,3 @@ package.json文件分为mac环境和windows环境（详细原因请查阅相关�
 
 2.react服务器端渲染，这个还是挺有必要的
 
-# 联系我
-chaneychan@outlook.com
